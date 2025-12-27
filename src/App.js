@@ -133,7 +133,7 @@ function Home() {
         {/* Watchlist badge */}
         {hasSearched && (
           <div className="watchlist-icon" onClick={() => navigate("/watchlist")}>
-            📌Watchlist
+            📌 Watchlist
             {watchlist.length > 0 && (
               <span className="watchlist-badge">{watchlist.length}</span>
             )}
@@ -215,7 +215,7 @@ function WatchlistPage() {
 
   return (
     <div className="App">
-      <h1 onClick={() => navigate("/")}>🎬 Movie Search App</h1>
+      <h1 onClick={() => navigate("/")}>⬅ Back</h1>
       <h2>📌 My Watchlist</h2>
       {watchlist.length === 0 ? (
         <p>You haven't added any movies yet 😢</p>
