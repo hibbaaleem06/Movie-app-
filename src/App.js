@@ -13,7 +13,7 @@ import "./App.css";
 const API_KEY = "f6d8b35cff24c19d75bc0b68e984935e";
 const IMAGE_PATH = "https://image.tmdb.org/t/p/w500";
 
-/* ================= HOME PAGE ================= */
+/* HOME PAGE*/
 function Home() {
   const navigate = useNavigate();
   const [hasSearched, setHasSearched] = useState(
@@ -200,7 +200,7 @@ function Home() {
   );
 }
 
-/* ================= WATCHLIST PAGE ================= */
+/* WATCHLIST PAGE */
 function WatchlistPage() {
   const navigate = useNavigate();
   const [watchlist, setWatchlist] = useState(
@@ -250,7 +250,7 @@ function WatchlistPage() {
   );
 }
 
-/* ================= MOVIE DETAILS PAGE ================= */
+/*MOVIE DETAILS PAGE */
 function MovieDetails() {
   const { id } = useParams();
   const navigate = useNavigate();
@@ -346,7 +346,7 @@ function MovieDetails() {
 
 
 
-/* ================= ROUTER ================= */
+/* ROUTE */
 function App() {
   return (
     <Router>
