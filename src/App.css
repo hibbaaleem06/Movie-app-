@@ -1,4 +1,4 @@
-/* -------- Global Background -------- */
+/* Global Background */
 body {
   background: radial-gradient(circle at top, #1b1b1b, #0d0d0d);
   color: white;
@@ -69,7 +69,7 @@ body:not(.has-searched) .icon {
   color: #ff6347;
 }
 
-/* -------- App After Search -------- */
+/*After Search */
 body.has-searched .App {
   max-width: 1200px;
   margin: auto;
@@ -271,9 +271,9 @@ body.has-searched h2 {
 
 /* Back Button overlay on Poster */
 .movie-detail-page .back-button {
-  position: absolute;          /* overlay */
-  top: 30px;                   /* distance from top of poster */
-  left: 30px;                  /* distance from left of poster */
+  position: absolute;         
+  top: 30px;                  
+  left: 30px;                  
   padding: 6px 14px;
   border-radius: 12px;
   border: none;
